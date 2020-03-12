@@ -3,7 +3,7 @@ from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
 from django.conf import settings
 from django.conf.urls.static import static
-from core.views import index
+from eye.views import index
 import eye.apis.user_apis as user
 import eye.apis.product_apis as product
 import eye.apis.purchase_apis as purchase

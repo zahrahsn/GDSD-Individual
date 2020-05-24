@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'Individual.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'eyedb',
-        'USER': 'eye',
-        'PASSWORD': 'hsfulda123',
-        'HOST': 'eyedbmysql.cqtcbrmxm6kh.us-east-1.rds.amazonaws.com',
+        'NAME': 'eye',
+        'USER': 'admin',
+        'PASSWORD': 'admin123',
+        'HOST': 'eyedb.cqtcbrmxm6kh.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
